@@ -1,0 +1,214 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+
+
+/* this is first section customization using csss */
+#title {
+  background-color: #ff4c68;
+  padding-bottom: 3%;
+}
+
+.title-h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 2.6rem;
+  line-height: 1.5;
+  color: white;
+}
+
+.button-download {
+  margin: 5% 3% 20% 0;
+}
+
+.nav-brand-style {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+  color: #fcf1f1;
+}
+
+.nav-custom {
+  padding-left: 0;
+  padding-right: 40px;
+  margin-bottom: 4.5rem;
+}
+
+.title-row-2col-img-custom {
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  right: 30%;
+}
+
+.nav-links-custom {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* this is title section customization end here */
+/* this is feature section customization start */
+#features {
+  background-color: #fff;
+  position: relative;
+
+}
+
+.feature-section-customization {
+  text-align: center;
+  margin: 100px 0 100px 0;
+}
+
+.feature-section-divs {
+  margin: 40px 0px 40px 0px
+}
+
+i:hover {
+  color: #ff4c68;
+}
+
+.icon-customization {
+  background-color: white;
+  color: #ef8172;
+  margin-bottom: 20px;
+}
+
+.h3-customization {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.para-customization {
+  color: #8f8f8f;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+/*
+                           testimonial section starts here  */
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.carousel-item {
+  padding: 8% 15%;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.img-custom {
+  width: 10%;
+  border-radius: 100%;
+  margin: 40px 10px;
+}
+
+/* press section starts here  */
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.img-press {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing section starts here  */
+#pricing {
+  text-align: center;
+  padding: 5% 5%;
+}
+
+.h2_pricing {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+
+}
+.h2-color{
+  color: #ff4646;
+  font-size: 1.5rem;
+}
+
+.h3-customization {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+}
+
+                                                                   /* cta section starts here */
+#cta{
+  background-color:  #ff4c68;
+  text-align: center;
+  color: #fff;
+  padding: 7% 15%;
+}
+.h3_cta {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 2.6rem;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+.button-download-cta {
+  margin: 5% 3% 10% 0;
+}
+
+                                                                  /* footer section start here */
+#footer{
+  background-color: #fff;
+  text-align: center;
+  padding: 5% 15%;
+}
+
+.icon-padding{
+  padding: 15px 5px 15px 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.para-customization-footer {
+  color: #8f8f8f;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.1rem;
+  font-weight: normal;
+  margin-top: 20px;
+}
+
+
+
+
+
+                                                                  /* media query section start here */
+@media (max-width: 995px) {
+
+  .title-row-2col-img-custom {
+    transform: rotate(0);
+    position: static;
+    width: 40%;
+
+  }
+  #title {
+    text-align: center;
+  }
+
+
+}
